@@ -1,0 +1,5 @@
+method,estimate,ci_lo,ci_hi,p_value,n_total,n_short,n_long,notes
+Raw median difference,-2.3500886486238683,-4.353554407292156,-0.9754495452340399,0.0091,19,10,9,Mean3 fee/WAR; p-value from a two-sided permutation test
+Conditional OLS,-3.7699950044571184,-11.935885681535362,4.3958956726211245,0.3655264296996762,19,10,9,"HC3 standard errors; controls for WAR, WAR^2, age, age-missing, pitcher, NPB, and posting-year fixed effects"
+Robust regression,-3.7699950044571184,-7.283354002501894,-0.25663600641234297,0.03545093745453219,19,10,9,Huber M-estimation with the same controls as the OLS specification
+Leave-one-out range,-2.3500886486238683,-2.5983886825310067,-2.10178861471673,,19,10,9,Range of the raw median difference after omitting one signed case at a time

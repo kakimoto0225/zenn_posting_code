@@ -1,0 +1,17 @@
+run_id = "publication"
+seed = 20260812
+n = 2000
+integration_draws = 32
+replications = 200
+eta_a = 1.5
+sigma_u = 15.0
+sigma_v = 1.0
+sigma_kappa = 3.0
+gamma_n0 = 7.5
+gamma_nq = 1.5
+r0 = 25.0
+
+[policy]
+name = "current"
+rates = [0.20, 0.175, 0.15]
+kinks = [25.0, 50.0]

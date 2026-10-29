@@ -1,0 +1,64 @@
+{
+  "run_id": "publication",
+  "command": "run_policy_experiments",
+  "timestamp_utc": "2026-10-29T11:50:48.154935+00:00",
+  "git_commit": "unavailable",
+  "python": "3.11.4",
+  "packages": {
+    "numpy": "1.26.1",
+    "pandas": "3.0.0",
+    "scipy": "1.13.0",
+    "matplotlib": "3.8.3"
+  },
+  "config": {
+    "run_id": "publication",
+    "seed": 20260812,
+    "n": 20000,
+    "integration_draws": 64,
+    "replications": 200,
+    "beta": 0.5,
+    "alpha": 0.0,
+    "eta_a": 1.5,
+    "sigma_u": 15.0,
+    "sigma_v": 1.0,
+    "sigma_kappa": 3.0,
+    "gamma_n0": 7.5,
+    "gamma_nq": 1.5,
+    "release_benefit": 3.0,
+    "no_deal_cost": 1.0,
+    "rho_uv": 0.0,
+    "heavy_tails": false,
+    "r0": 25.0,
+    "r_q": 6.0,
+    "r_age": -1.5,
+    "delta_r0": 18.0,
+    "delta_r_q": 2.0,
+    "a0": 2.0,
+    "a_q": 1.0,
+    "delta_a0": 2.0,
+    "delta_a_q": 0.25,
+    "delta_a_v": 0.35,
+    "guarantee_error": 0.5,
+    "policy": {
+      "name": "current",
+      "rates": [
+        0.2,
+        0.175,
+        0.15
+      ],
+      "kinks": [
+        25.0,
+        50.0
+      ],
+      "trailing_rate": 0.0,
+      "minimum_fee": 0.0
+    }
+  },
+  "elapsed_seconds": 107.98423279999406,
+  "results": {
+    "policies": 8,
+    "permission_models": 3,
+    "rows": 24,
+    "common_random_numbers": true
+  }
+}
